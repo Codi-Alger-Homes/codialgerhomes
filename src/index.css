@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url("./assets/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf") format("truetype");
+  /* font-weight: 400; */
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url("./assets/Karla/Karla-VariableFont_wght.ttf") format("truetype");
+  /* font-weight: 400; */
+}
+
+:root {
+  --primary-color: #ECC659;
+  --secondary-color: #93B7BE;
+  --tertiary-color: #E7D7C1;
+  --dark-color: #2F3E46;
+  --light-color: #FFFBF5;
+  /* --black-color: #2F3E46;
+  --white-color: #FFFBF5; */
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Fraunces', serif;
+}

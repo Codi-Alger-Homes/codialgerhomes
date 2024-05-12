@@ -1,0 +1,33 @@
+.page-container {
+  
+}
+
+.page-header-container {
+
+}
+
+.page-footer-container {
+  border-bottom: 2rem solid var(--secondary-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-bar {
+
+}
+
+.nav-link {
+  font-family: 'Fraunces', serif;
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+.hoan-graphic {
+  width: 100vw;
+  z-index: -10;
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+}
