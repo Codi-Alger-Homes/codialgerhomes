@@ -43,3 +43,14 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Fraunces', serif;
 }
+
+h1 {
+  background-color: var(--tertiary-color);
+  color: var(--dark-color);
+  text-align: center;
+  font-weight: 600;
+  padding: 0.25rem 0;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+}
