@@ -1,0 +1,52 @@
+.client-review-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.client-review-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.client-review-initials {
+  font-family: 'Fraunces', serif;
+  font-size: 3rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--tertiary-color);
+  color: var(--dark-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-review-date {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.client-review-right {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.client-review-forward-tick {
+  text-align: left;
+}
+
+.client-review-back-tick {
+  text-align: right;
+}
+
+.client-review-text {
+
+}
+
+.client-review-text > p > strong {
+  color: var(--primary-color);
+}
