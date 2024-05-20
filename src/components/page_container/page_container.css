@@ -10,19 +10,9 @@
 }
 
 .page-header-left {
-
 }
 
 .page-header-right {
-
-}
-
-.page-footer-container {
-  border-bottom: 2rem solid var(--secondary-color);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 .logo {
@@ -43,10 +33,41 @@
   color: var(--tertiary-color);
 }
 
-.hoan-graphic {
-  width: 100vw;
-  z-index: -10;
+.page-footer-container {
+  border-bottom: 2rem solid var(--secondary-color);
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
   left: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+
+.page-footer-cta-text {
+  font-size: min(1rem, 16px);
+  font-weight: 800;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  margin-left: 1rem;
+  max-width: max(100px, 80%);
+  text-align: right;
+}
+
+.hoan-graphic-container {
+  z-index: -1;
+  position: absolute;
+  left: -50px;
+  bottom: 0;
+}
+
+.hoan-graphic {
+  min-width: 450px;
+  width: 120vw;
 }
