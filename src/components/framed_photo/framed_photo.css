@@ -1,11 +1,12 @@
 .framed-photo-container {
-
+  /* height: inherit;
+  width: inherit; */
 }
 
 .framed-photo-border-blue {
-  border: 2px solid blue;
+  border: 2px solid var(--secondary-color);
 }
 
 .framed-photo-border-tan {
-  border: 2px solid tan;
+  border: 2px solid var(--tertiary-color);
 }

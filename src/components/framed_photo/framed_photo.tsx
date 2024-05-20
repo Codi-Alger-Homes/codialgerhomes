@@ -4,12 +4,20 @@ interface IFramedPhotoProps {
   src: string
   alt: string
   frameColor?: 'blue' | 'tan'
+  imgTagClassName?: string // good for setting the height of the image from outside of this component
 }
 
-export function FramedPhoto({ src, alt, frameColor = "blue" }: IFramedPhotoProps) {
+export function FramedPhoto({
+  src,
+  alt,
+  frameColor = 'blue',
+  imgTagClassName,
+}: IFramedPhotoProps) {
   return (
-    <div className={`framed-photo-container framed-photo-border-${frameColor}`}>
-      <img src={src} alt={alt} />
-    </div>
+    <img
+      src={src}
+      alt={alt}
+      className={`framed-photo-container framed-photo-border-${frameColor} ${imgTagClassName}`}
+    />
   )
 }
