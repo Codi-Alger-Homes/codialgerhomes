@@ -51,6 +51,5 @@ h1 {
   font-weight: 600;
   padding: 0.25rem 0;
   width: 100vw;
-  position: absolute;
-  left: 0;
+  margin-left: -3rem;
 }

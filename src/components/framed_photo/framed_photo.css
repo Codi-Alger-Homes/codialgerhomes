@@ -1,6 +1,5 @@
 .framed-photo-container {
-  /* height: inherit;
-  width: inherit; */
+  border-radius: 0.25rem;
 }
 
 .framed-photo-border-blue {
