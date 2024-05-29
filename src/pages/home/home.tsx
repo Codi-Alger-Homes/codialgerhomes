@@ -9,6 +9,8 @@ export function Home() {
       <div>
 
       <ClientReview review={HOME_REVIEWS[0]} />
+      <ClientReview review={HOME_REVIEWS[1]} />
+      <ClientReview review={HOME_REVIEWS[2]} />
       </div>
     </PageContainer>
   )

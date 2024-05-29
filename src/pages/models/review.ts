@@ -4,5 +4,5 @@ export interface IClientReview {
   month: number
   year: number
   quote: string[]
-  highlighted: string[]
+  highlighted?: string[]
 }
