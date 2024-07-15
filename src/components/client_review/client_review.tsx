@@ -1,4 +1,4 @@
-import { IClientReview } from '../../pages/models'
+import { IClientReview } from '../../models'
 import { MONTHS_ABBREVIATED } from '../../constants'
 import QuoteTick from '../../assets/quote-tick.svg'
 import QuoteBackTick from '../../assets/quote-back-tick.svg'

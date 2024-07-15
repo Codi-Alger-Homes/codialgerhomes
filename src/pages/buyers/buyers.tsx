@@ -1,5 +1,5 @@
 import { ClientReview, PageContainer } from '../../components'
-import { BUYER_REVIEWS } from '../../constants'
+import { BUYERS_REVIEWS } from '../../constants'
 import './buyers.css'
 
 export function Buyers() {
@@ -7,10 +7,10 @@ export function Buyers() {
     <PageContainer>
       <h1>Buyers</h1>
       
-      <ClientReview review={BUYER_REVIEWS[0]} />
-      <ClientReview review={BUYER_REVIEWS[1]} />
-      <ClientReview review={BUYER_REVIEWS[2]} />
-      <ClientReview review={BUYER_REVIEWS[3]} />
+      <ClientReview review={BUYERS_REVIEWS[0]} />
+      <ClientReview review={BUYERS_REVIEWS[1]} />
+      <ClientReview review={BUYERS_REVIEWS[2]} />
+      <ClientReview review={BUYERS_REVIEWS[3]} />
     </PageContainer>
   )
 }

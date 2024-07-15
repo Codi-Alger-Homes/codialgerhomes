@@ -1,11 +1,11 @@
 import { ClientReview, PageContainer } from '../../components'
-import { HOME_REVIEWS } from '../../constants'
+import { HOME_HEADER, HOME_REVIEWS } from '../../constants'
 import './home.css'
 
 export function Home() {
   return (
     <PageContainer>
-      <h1>Welcome!</h1>
+      <h1>{HOME_HEADER}</h1>
       <div>
 
       <ClientReview review={HOME_REVIEWS[0]} />
