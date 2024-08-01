@@ -35,7 +35,7 @@ code {
   --white-color: #FFFBF5; */
 
   --vertical-content-gap: 8vw;
-  --horizontal-outer-padding: min(5rem, 100px);
+  --horizontal-outer-padding: min(5rem, 10px);
   --bottom-content-padding: 4rem;
 
   --single-photo-width: min(15rem, 300px);
