@@ -1,0 +1,31 @@
+.row-photo-text-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--vertical-content-gap);
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.row-photo-text-photo-container {
+  /* flex: 1 0 auto; */
+
+}
+
+.row-photo-text-photo {
+}
+
+.row-photo-text-text-container {
+  flex: 1 1 min(20rem, 400px);
+
+  text-overflow: wrap;
+  text-wrap: wrap;
+  min-width: min(20rem, 400px);
+  max-width: 400px;
+}
+
+.row-photo-text-text {
+}

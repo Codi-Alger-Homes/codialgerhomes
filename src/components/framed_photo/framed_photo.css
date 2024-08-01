@@ -1,11 +1,12 @@
 .framed-photo-container {
   border-radius: 0.25rem;
+  max-height: 50vh;
 }
 
 .framed-photo-border-blue {
-  border: 2px solid var(--secondary-color);
+  border: 0.25rem solid var(--secondary-color);
 }
 
 .framed-photo-border-tan {
-  border: 2px solid var(--tertiary-color);
+  border: 0.25rem solid var(--tertiary-color);
 }

@@ -4,6 +4,7 @@
   color: var(--dark-color);
   padding: 1rem;
   border-radius: 0.25rem;
+  text-align: left;
 }
 
 .cta-image {

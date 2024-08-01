@@ -14,24 +14,31 @@ code {
 
 @font-face {
   font-family: 'Fraunces';
-  src: url("./assets/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf") format("truetype");
+  src: url('./assets/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf')
+    format('truetype');
   /* font-weight: 400; */
 }
 
 @font-face {
   font-family: 'Karla';
-  src: url("./assets/Karla/Karla-VariableFont_wght.ttf") format("truetype");
+  src: url('./assets/Karla/Karla-VariableFont_wght.ttf') format('truetype');
   /* font-weight: 400; */
 }
 
 :root {
-  --primary-color: #ECC659;
-  --secondary-color: #93B7BE;
-  --tertiary-color: #E7D7C1;
-  --dark-color: #2F3E46;
-  --light-color: #FFFBF5;
+  --primary-color: #ecc659;
+  --secondary-color: #93b7be;
+  --tertiary-color: #e7d7c1;
+  --dark-color: #2f3e46;
+  --light-color: #fffbf5;
   /* --black-color: #2F3E46;
   --white-color: #FFFBF5; */
+
+  --vertical-content-gap: 8vw;
+  --horizontal-outer-padding: min(5rem, 100px);
+  --bottom-content-padding: 4rem;
+
+  --single-photo-width: min(15rem, 300px);
 }
 
 body {
@@ -40,7 +47,11 @@ body {
   color: var(--light-color);
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Fraunces', serif;
 }
 
@@ -50,6 +61,11 @@ h1 {
   text-align: center;
   font-weight: 600;
   padding: 0.25rem 0;
+  margin: 2rem 0 4rem 0;
   width: 100vw;
   margin-left: -3rem;
+}
+
+h2 {
+  color: var(--primary-color);
 }

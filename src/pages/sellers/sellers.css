@@ -1,0 +1,6 @@
+.sellers-container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: var(--vertical-content-gap);
+  padding: 0 var(--horizontal-outer-padding) var(--bottom-content-padding);
+}
