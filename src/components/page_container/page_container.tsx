@@ -10,9 +10,11 @@ interface IPageContainerProps {
 
 export function PageContainer({ children }: IPageContainerProps) {
   return (
-    <div className='page-container'>
-      <PageHeader />
-      {children}
+    <div>
+      <div className='page-container'>
+        <PageHeader />
+        {children}
+      </div>
       <PageFooter />
     </div>
   )
@@ -47,18 +49,16 @@ export function PageHeader() {
 
 export function PageFooter() {
   return (
-    <div className='page-footer-container'>
-      <div className='hoan-graphic-container'>
-        <img src={HoanGraphic} alt='hoan graphic' className='hoan-graphic' />
+    <>
+      <div className='page-footer-container'>
+        <div className='hoan-graphic-container'>
+          <img src={HoanGraphic} alt='hoan graphic' className='hoan-graphic' />
+        </div>
       </div>
       <div className='page-footer-cta-text'>
-        <span>
-          Call or Text: (414)581-4409
-        </span>
-        <span>
-          Email: codialgerhomes@gmail.com
-        </span>
+        <span>Call or Text: (414)581-4409</span>
+        <span>Email: codialgerhomes@gmail.com</span>
       </div>
-    </div>
+    </>
   )
 }

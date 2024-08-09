@@ -35,10 +35,6 @@
 }
 
 .page-footer-container {
-  border-bottom: 2rem solid var(--secondary-color);
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -46,6 +42,9 @@
 }
 
 .page-footer-cta-text {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  padding: 1rem;
   font-size: min(1rem, 16px);
   font-weight: 800;
   display: flex;
@@ -53,19 +52,11 @@
   align-items: center;
   justify-content: flex-end;
   gap: 0.5rem;
-  /* position: absolute;
-  bottom: 0.5rem;
-  right: 0.5rem; */
-  margin-left: 1rem;
-  max-width: max(100px, 80%);
   text-align: right;
 }
 
 .hoan-graphic-container {
   z-index: -1;
-  /* position: absolute;
-  left: -50px;
-  bottom: 0; */
 }
 
 .hoan-graphic {
