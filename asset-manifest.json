@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.685e350c.css",
-    "main.js": "./static/js/main.43276a56.js",
+    "main.css": "./static/css/main.fc5e46fa.css",
+    "main.js": "./static/js/main.a1d643d7.js",
     "static/js/453.05025504.chunk.js": "./static/js/453.05025504.chunk.js",
     "static/media/formal-laptop.jpg": "./static/media/formal-laptop.ada381f7da56c3ec68cd.jpg",
     "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "./static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.c767db37f6648bd42213.ttf",
@@ -33,12 +33,12 @@
     "static/media/quote-back-tick.svg": "./static/media/quote-back-tick.32cca294fb85cf998110cff32fbf3afe.svg",
     "static/media/quote-tick.svg": "./static/media/quote-tick.3fbce81ae3c4d6b0710289c0509e0bec.svg",
     "index.html": "./index.html",
-    "main.685e350c.css.map": "./static/css/main.685e350c.css.map",
-    "main.43276a56.js.map": "./static/js/main.43276a56.js.map",
+    "main.fc5e46fa.css.map": "./static/css/main.fc5e46fa.css.map",
+    "main.a1d643d7.js.map": "./static/js/main.a1d643d7.js.map",
     "453.05025504.chunk.js.map": "./static/js/453.05025504.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.685e350c.css",
-    "static/js/main.43276a56.js"
+    "static/css/main.fc5e46fa.css",
+    "static/js/main.a1d643d7.js"
   ]
 }
