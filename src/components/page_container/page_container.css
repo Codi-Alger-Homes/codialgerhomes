@@ -1,5 +1,5 @@
 .page-container {
-  padding: 2rem 3rem;
+  padding: 2rem var(--header-left-spacing);
   text-align: center;
 }
 
