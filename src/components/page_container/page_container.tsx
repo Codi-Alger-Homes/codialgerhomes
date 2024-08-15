@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom'
+import { useCallback } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import { CallToAction } from '..'
 import HoanGraphic from '../../assets/hoan-graphic.svg'
 import Logo from '../../assets/logo.svg'
@@ -21,10 +22,16 @@ export function PageContainer({ children }: IPageContainerProps) {
 }
 
 export function PageHeader() {
+  const navigate = useNavigate()
+
+  const handleLogoClick = useCallback(() => {
+    navigate('/')
+  }, [navigate])
+
   return (
     <div className='page-header-container'>
       <div className='page-header-left'>
-        <img src={Logo} alt='logo' className='logo' />
+        <img src={Logo} alt='logo' className='logo' onClick={handleLogoClick} />
         <div className='nav-bar'>
           <Link className='nav-link' to='/'>
             Home
