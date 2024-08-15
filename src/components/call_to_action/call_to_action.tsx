@@ -10,7 +10,9 @@ export function CallToAction() {
           <span>
             <strong>Call</strong> or <strong>Text</strong>
           </span>
-          <span>(414) 581-4409</span>
+          <span>
+            <a href='tel:4145814409'>(414) 581-4409</a>
+          </span>
         </div>
         <FramedPhoto
           src={CTAHeadshot}
@@ -23,7 +25,15 @@ export function CallToAction() {
         <span>
           <strong>Email</strong>
         </span>
-        <span>codialgerhomes@gmail.com</span>
+        <span>
+          <a
+            href='mailto:codialgerhomes@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
+            codialgerhomes@gmail.com
+          </a>
+        </span>
       </div>
     </div>
   )
