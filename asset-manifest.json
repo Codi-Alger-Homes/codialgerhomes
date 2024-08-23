@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.fc5e46fa.css",
-    "main.js": "./static/js/main.a1d643d7.js",
+    "main.css": "./static/css/main.d89914a8.css",
+    "main.js": "./static/js/main.a7c628db.js",
     "static/js/453.05025504.chunk.js": "./static/js/453.05025504.chunk.js",
     "static/media/formal-laptop.jpg": "./static/media/formal-laptop.ada381f7da56c3ec68cd.jpg",
     "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "./static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.c767db37f6648bd42213.ttf",
     "static/media/cta-headshot.jpg": "./static/media/cta-headshot.2c0c71d7158ec8f66241.jpg",
-    "static/media/real-painting.jpg": "./static/media/real-painting.cb05b06a79edd782d066.jpg",
     "static/media/real-daughter.jpg": "./static/media/real-daughter.850b44c4334730b3450e.jpg",
-    "static/media/sold-8.jpg": "./static/media/sold-8.d03f1f6facaefe2e8599.jpg",
     "static/media/real-mural.jpg": "./static/media/real-mural.ac463816e0ff314de15f.jpg",
     "static/media/formal-best-of-mke.jpg": "./static/media/formal-best-of-mke.b3d42c5394f7f08dc52e.jpg",
     "static/media/real-diva.jpg": "./static/media/real-diva.86c87f90d37fb302c65a.jpg",
-    "static/media/sold-6.jpg": "./static/media/sold-6.176df8df027b6aa0bd5d.jpg",
     "static/media/real-generation-heart-pants.jpg": "./static/media/real-generation-heart-pants.48d742c1048fb6187e8c.jpg",
     "static/media/sold-9.jpg": "./static/media/sold-9.052dfa0cb7af24263f11.jpg",
     "static/media/real-nature.jpg": "./static/media/real-nature.9fbebee5ce48b399eff3.jpg",
@@ -20,25 +17,23 @@
     "static/media/real-husband.jpg": "./static/media/real-husband.98c061458b6b99c5782c.jpg",
     "static/media/real-cat.jpg": "./static/media/real-cat.0e93513131ba773ef326.jpg",
     "static/media/real-best-of-mke.jpg": "./static/media/real-best-of-mke.39e02f4861e1a3b03837.jpg",
-    "static/media/sold-4.jpg": "./static/media/sold-4.30a6f2aa622112ee7990.jpg",
-    "static/media/sold-5.jpg": "./static/media/sold-5.8078cd8d7e4799dd0c05.jpg",
     "static/media/sign-son.jpg": "./static/media/sign-son.690acc402b5c1b032593.jpg",
     "static/media/real-drag-face.jpg": "./static/media/real-drag-face.a3e3cca6e4c6571f4538.jpg",
-    "static/media/sold-3.jpg": "./static/media/sold-3.b9d71b0af1508f410ee7.jpg",
     "static/media/real-family-copper.jpg": "./static/media/real-family-copper.169ec09df06e7b03412e.jpg",
     "static/media/Karla-VariableFont_wght.ttf": "./static/media/Karla-VariableFont_wght.1d835e644ae4118a28fc.ttf",
     "static/media/real-big-hat.jpg": "./static/media/real-big-hat.e5db7dd3390b872f86a5.jpg",
+    "static/media/lsr-whitelogo-final.png": "./static/media/lsr-whitelogo-final.a0a1bab4148758acb03a.png",
     "static/media/logo.svg": "./static/media/logo.c6949727a828c23cce2de1a48b828ee0.svg",
     "static/media/hoan-graphic.svg": "./static/media/hoan-graphic.6ed358c4eb9532afb1fc8a545741ffa0.svg",
     "static/media/quote-back-tick.svg": "./static/media/quote-back-tick.32cca294fb85cf998110cff32fbf3afe.svg",
     "static/media/quote-tick.svg": "./static/media/quote-tick.3fbce81ae3c4d6b0710289c0509e0bec.svg",
     "index.html": "./index.html",
-    "main.fc5e46fa.css.map": "./static/css/main.fc5e46fa.css.map",
-    "main.a1d643d7.js.map": "./static/js/main.a1d643d7.js.map",
+    "main.d89914a8.css.map": "./static/css/main.d89914a8.css.map",
+    "main.a7c628db.js.map": "./static/js/main.a7c628db.js.map",
     "453.05025504.chunk.js.map": "./static/js/453.05025504.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc5e46fa.css",
-    "static/js/main.a1d643d7.js"
+    "static/css/main.d89914a8.css",
+    "static/js/main.a7c628db.js"
   ]
 }
