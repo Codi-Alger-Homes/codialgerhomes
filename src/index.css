@@ -35,7 +35,7 @@ code {
   --white-color: #FFFBF5; */
 
   --header-left-spacing: 4rem;
-  --header-left-negative-spacing: -4rem; 
+  --header-left-negative-spacing: -4rem;
 
   --vertical-content-gap: 8vw;
   --horizontal-outer-padding: min(5rem, 10px);
@@ -64,7 +64,7 @@ h1 {
   text-align: center;
   font-weight: 600;
   padding: 0.25rem 0;
-  margin: 2rem 0 4rem 0;
+  margin: 4rem 0 4rem 0;
   width: 100vw;
   margin-left: var(--header-left-negative-spacing);
 }
@@ -75,4 +75,38 @@ h2 {
 
 a {
   color: var(--dark-color);
+}
+
+.link-button {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  width: fit-content;
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.background-primary {
+  color: var(--dark-color);
+  background-color: var(--primary-color);
+}
+
+.background-secondary {
+  color: var(--dark-color);
+  background-color: var(--secondary-color);
+}
+
+.background-tertiary {
+  color: var(--dark-color);
+  background-color: var(--tertiary-color);
+}
+
+.background-dark {
+  color: var(--light-color);
+  background-color: var(--dark-color);
 }

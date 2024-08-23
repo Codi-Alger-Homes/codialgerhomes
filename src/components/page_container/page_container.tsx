@@ -1,8 +1,8 @@
 import { useCallback } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import { CallToAction } from '..'
+import { useNavigate } from 'react-router-dom'
 import HoanGraphic from '../../assets/hoan-graphic.svg'
 import Logo from '../../assets/logo.svg'
+import LSRLogo from '../../assets/lsr-whitelogo-final.png'
 import './page_container.css'
 
 interface IPageContainerProps {
@@ -30,25 +30,11 @@ export function PageHeader() {
 
   return (
     <div className='page-header-container'>
-      <div className='page-header-left'>
-        <img src={Logo} alt='logo' className='logo' onClick={handleLogoClick} />
-        <div className='nav-bar'>
-          <Link className='nav-link' to='/'>
-            Home
-          </Link>
-          <Link className='nav-link' to='/buyers'>
-            Buyers
-          </Link>
-          <Link className='nav-link' to='/sellers'>
-            Sellers
-          </Link>
-          <Link className='nav-link' to='/about'>
-            About
-          </Link>
-        </div>
-      </div>
-      <div className='page-header-right'>
-        <CallToAction />
+      <img src={Logo} alt='logo' className='logo' onClick={handleLogoClick} />
+      <div className='page-header-subtitle-container'>
+        <span className='page-header-subtitle'>Buyer's Agent</span>
+        <span className='page-header-subtitle'>Seller's Agent</span>
+        <span className='page-header-subtitle'>Licensed Realtor &#174;</span>
       </div>
     </div>
   )
@@ -62,9 +48,20 @@ export function PageFooter() {
           <img src={HoanGraphic} alt='hoan graphic' className='hoan-graphic' />
         </div>
       </div>
-      <div className='page-footer-cta-text'>
-        <span>Call or Text: (414)581-4409</span>
-        <span>Email: codialgerhomes@gmail.com</span>
+      <div className='page-footer-cta'>
+        <img
+          src={LSRLogo}
+          alt='Lannon Stone Realty logo'
+          className='page-footer-lsr-logo'
+        />
+        <div className='page-footer-cta-text'>
+          <span>
+            <strong>Call or Text:</strong> (414)581-4409
+          </span>
+          <span>
+            <strong>Email:</strong> codialgerhomes@gmail.com
+          </span>
+        </div>
       </div>
     </>
   )

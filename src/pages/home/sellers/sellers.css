@@ -1,0 +1,19 @@
+.sellers-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sellers-overview-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+.sellers-overview-bullets {
+  text-align: left;
+}
