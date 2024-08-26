@@ -1,5 +1,4 @@
 export * from './about'
-export * from './home/buyers'
+export * from './buyers'
 export * from './home'
-export * from './home/sellers'
-export * from './testimonials'
+export * from './sellers'
