@@ -30,25 +30,20 @@ export function PageHeader() {
 
   return (
     <div className='page-header-container'>
-      <div className='page-header-left'>
-        <img src={Logo} alt='logo' className='logo' onClick={handleLogoClick} />
-        <div className='nav-bar'>
-          <Link className='nav-link' to='/'>
-            Home
-          </Link>
-          <Link className='nav-link' to='/buyers'>
-            Buyers
-          </Link>
-          <Link className='nav-link' to='/sellers'>
-            Sellers
-          </Link>
-          <Link className='nav-link' to='/about'>
-            About
-          </Link>
-        </div>
-      </div>
-      <div className='page-header-right'>
-        <CallToAction />
+      <img src={Logo} alt='logo' className='logo' onClick={handleLogoClick} />
+      <div className='nav-bar'>
+        <Link className='nav-link' to='/'>
+          Home
+        </Link>
+        <Link className='nav-link' to='/buyers'>
+          Buyers
+        </Link>
+        <Link className='nav-link' to='/sellers'>
+          Sellers
+        </Link>
+        <Link className='nav-link' to='/about'>
+          About
+        </Link>
       </div>
     </div>
   )
