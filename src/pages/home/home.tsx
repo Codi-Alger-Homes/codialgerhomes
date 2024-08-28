@@ -1,23 +1,15 @@
-import {
-  ClientReview,
-  FramedPhoto,
-  PageContainer,
-  RowPhotoText,
-} from '../../components'
-import { HOME_HEADER, HOME_REVIEWS } from '../../constants'
+import { Link } from 'react-router-dom'
 import CodiBestOfMKEFormal from '../../assets/photos/codi/formal-best-of-mke.jpg'
 import CodiLatteLaptop from '../../assets/photos/codi/formal-latte-laptop.jpg'
-import Sold6 from '../../assets/photos/sold/sold-6.jpg'
-import Sold8 from '../../assets/photos/sold/sold-8.jpg'
+import { PageContainer } from '../../components'
+import { HOME_HEADER } from '../../constants'
 import './home.css'
-import { Link } from 'react-router-dom'
 
 export function Home() {
   return (
     <PageContainer>
       <h1>{HOME_HEADER}</h1>
       <div className='home-container'>
-          text={[
         <div>
           <h2>"Your Friend in Real Estate"</h2>
           <p>
