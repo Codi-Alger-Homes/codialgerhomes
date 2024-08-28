@@ -2,6 +2,7 @@ import { useCallback } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import HoanGraphic from '../../assets/hoan-graphic.svg'
 import Logo from '../../assets/logo.svg'
+import LSRLogo from '../../assets/lsr-logo.png'
 import './page_container.css'
 
 interface IPageContainerProps {
@@ -56,9 +57,16 @@ export function PageFooter() {
           <img src={HoanGraphic} alt='hoan graphic' className='hoan-graphic' />
         </div>
       </div>
-      <div className='page-footer-cta-text'>
-        <span>Call or Text: (414)581-4409</span>
-        <span>Email: codialgerhomes@gmail.com</span>
+      <div className='page-footer-cta'>
+        <img
+          src={LSRLogo}
+          alt='Lannon Stone Realty logo'
+          className='page-footer-lsr-logo'
+        />
+        <div className='page-footer-cta-text'>
+          <span>Call or Text: (414)581-4409</span>
+          <span>Email: codialgerhomes@gmail.com</span>
+        </div>
       </div>
     </>
   )

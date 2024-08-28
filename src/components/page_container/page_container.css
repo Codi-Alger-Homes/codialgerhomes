@@ -36,10 +36,18 @@
   align-items: flex-end;
 }
 
-.page-footer-cta-text {
+.page-footer-cta {
   background-color: var(--secondary-color);
   color: var(--dark-color);
+  
   padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.page-footer-cta-text {
   font-size: min(1rem, 16px);
   font-weight: 800;
   display: flex;
@@ -57,4 +65,8 @@
 .hoan-graphic {
   min-width: 450px;
   width: 120vw;
+}
+
+.page-footer-lsr-logo {
+  max-width: 100px;
 }
