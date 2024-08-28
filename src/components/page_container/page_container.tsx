@@ -35,10 +35,10 @@ export function PageHeader() {
           About
         </Link>
         <Link className='nav-link' to='/buyers'>
-          Buyers
+          Buying
         </Link>
         <Link className='nav-link' to='/sellers'>
-          Sellers
+          Selling
         </Link>
         <Link className='nav-link' to='/testimonials'>
           Testimonials
