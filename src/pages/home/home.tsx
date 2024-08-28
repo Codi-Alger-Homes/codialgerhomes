@@ -6,44 +6,102 @@ import {
 } from '../../components'
 import { HOME_HEADER, HOME_REVIEWS } from '../../constants'
 import CodiBestOfMKEFormal from '../../assets/photos/codi/formal-best-of-mke.jpg'
-import CodiBestOfMKEReal from '../../assets/photos/codi/real-best-of-mke.jpg'
+import CodiLatteLaptop from '../../assets/photos/codi/formal-latte-laptop.jpg'
 import Sold6 from '../../assets/photos/sold/sold-6.jpg'
 import Sold8 from '../../assets/photos/sold/sold-8.jpg'
 import './home.css'
+import { Link } from 'react-router-dom'
 
 export function Home() {
   return (
     <PageContainer>
       <h1>{HOME_HEADER}</h1>
       <div className='home-container'>
-        <RowPhotoText
-          header='Get a realtor who can do both'
           text={[
-            "Whether you're looking to buy for the first time, unexpectedly selling a family home, or just looking to upsize - I'm here to help!",
-            "Getting into the market often yields confusion and uncertainty, and I'm here to dispel myths and educate away the rumors.",
-          ]}
-        >
-          <div className='home-photo-1-container'>
-            <FramedPhoto
-              src={CodiBestOfMKEFormal}
-              alt={
-                'Codi Alger at the Shepherd Express Best of MKE 2022, formal photo on a red carpet against an event backdrop, wearing a black long sleeve open back top with burnt orange flared trousers'
-              }
-              frameColor='tan'
-              imgTagClassName='home-photo-1'
-            />
-            <FramedPhoto
-              src={CodiBestOfMKEReal}
-              alt={
-                'Codi Alger at the Best of MKE 2022 event, informal photo with behind the scenes energy, Codi is squatting down and eating with her purse and drink on the ground next to her'
-              }
-              frameColor='tan'
-              imgTagClassName='home-photo-1'
-            />
-          </div>
-        </RowPhotoText>
+        <div>
+          <h2>"Your Friend in Real Estate"</h2>
+          <p>
+            As your friend in real estate my goal is to help you find the
+            PERFECT MATCH! Southeastern Wisconsin has amazing amenities and top
+            notch communities. I work in the following counties:
+          </p>
+          <ul>
+            <li>Milwaukee</li>
+            <li>Waukesha</li>
+            <li>Ozaukee</li>
+            <li>Washington</li>
+            <li>Racine</li>
+            <li>Kenosha</li>
+            <li>Walworth</li>
+          </ul>
+          <Link className='link' to='/about'>
+            Learn more about Codi
+          </Link>
+        </div>
 
-        <div className='home-section-2-container'>
+        <div>
+          <h2>Awards</h2>
+          <ul>
+            <li>
+              Named "Rookie of the Year" for Keller Williams North Central
+              Region in 2020
+            </li>
+            <li>
+              Milwaukee's Shepherd Express BEST of MILWAUKEE Realtor finalist
+              2022
+            </li>
+            <li>Top Producing Agent, Lannon Stone Realty 2022, 2023, 2024</li>
+            <li>
+              Nominated and Awarded 2022 Rising Star Real Estate Agent 2022
+            </li>
+          </ul>
+
+          <img
+            src={CodiBestOfMKEFormal}
+            alt='Codi Alger at the Shepherd Express Best of MKE 2022, on a red carpet against an event backdrop, wearing a black long sleeve open back top with burnt orange flared trousers'
+            className='home-photo-formal'
+          />
+          <img
+            src={CodiLatteLaptop}
+            alt='Codi Alger at the Hawthorne Coffee Roasters in Bayview, Milwaukee, sitting at a table in front of a laptop'
+            className='home-photo-formal'
+          />
+        </div>
+
+        <div>
+          <h2>Bay View / 53207 Expert</h2>
+          <p>
+            Southeastern Wisconsin has amazing amenities and top notch
+            communities and while I work in all 7 of them, my favorites, and I
+            may be biased, are the communities within the 53207 zip code!
+          </p>
+          <ul>
+            <li>Bay View</li>
+            <li>The Garden District</li>
+            <li>Tippecanoe</li>
+            <li>Saveland Park</li>
+            <li>The Green Corridor</li>
+            <li>Airport Gardens</li>
+            <li>Fernwood</li>
+            <li>South Shore</li>
+            <li>Areas near Walkers Point</li>
+          </ul>
+
+          <p>
+            I am a Bay View resident and I am proud to be a part of the
+            community and to be able to help others find their perfect home in
+            the area.
+          </p>
+          <ul>
+            <li>Over $5 Million in sales in 53207 </li>
+            <li>Lives and invests in 53207</li>
+            <li>Invests in Educational institutions 53207</li>
+            <li>Annual sponsor of Second Hand Purrs cat shelter</li>
+            <li>Host of Annual Tippecanoe Dumpster Days</li>
+            <li>Sponsor of Whitnall Way holiday trees</li>
+          </ul>
+        </div>
+        {/* <div className='home-section-2-container'>
           <div className='home-photo-2-container'>
             <FramedPhoto
               src={Sold6}
@@ -58,7 +116,7 @@ export function Home() {
               imgTagClassName='home-photo-1'
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </PageContainer>
   )
