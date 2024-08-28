@@ -93,22 +93,6 @@ export function Home() {
             <li>Sponsor of Whitnall Way holiday trees</li>
           </ul>
         </div>
-        {/* <div className='home-section-2-container'>
-          <div className='home-photo-2-container'>
-            <FramedPhoto
-              src={Sold6}
-              alt={''}
-              frameColor='blue'
-              imgTagClassName='home-photo-1'
-            />
-            <FramedPhoto
-              src={Sold8}
-              alt={''}
-              frameColor='blue'
-              imgTagClassName='home-photo-1'
-            />
-          </div>
-        </div> */}
       </div>
     </PageContainer>
   )

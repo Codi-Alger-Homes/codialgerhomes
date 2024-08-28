@@ -1,5 +1,4 @@
 import CTAHeadshot from '../../assets/photos/cta-headshot.jpg'
-import { FramedPhoto } from '..'
 import './call_to_action.css'
 
 export function CallToAction() {
@@ -14,11 +13,10 @@ export function CallToAction() {
             <a href='tel:4145814409'>(414) 581-4409</a>
           </span>
         </div>
-        <FramedPhoto
+        <img
           src={CTAHeadshot}
           alt='headshot of codi alger in a warm, brown jacket with a colorful scarf'
-          frameColor={'tan'}
-          imgTagClassName='cta-image'
+          className='cta-image'
         />
       </div>
       <div className='cta-contact-method'>

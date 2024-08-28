@@ -11,7 +11,7 @@ import RealGenerationHeartPants from '../../assets/photos/codi/real-generation-h
 import RealHusband from '../../assets/photos/codi/real-husband.jpg'
 import RealMural from '../../assets/photos/codi/real-mural.jpg'
 import RealNature from '../../assets/photos/codi/real-nature.jpg'
-import { FramedPhoto, PageContainer, RowPhotoText } from '../../components'
+import { PageContainer, RowPhotoText } from '../../components'
 import './about.css'
 
 export function About() {
@@ -24,48 +24,42 @@ export function About() {
             'My passion for real estate was born from my own experience of buying and selling homes throughout different stages in my life. I can relate to my clients, whether it’s the excitement of finding your first home, upgrading for a growing family, purchasing an investment property or selling a beloved family home, as your real estate advisor, I enjoy guiding people through one of the biggest transactions they will make.',
           ]}
         >
-          <FramedPhoto
+          <img
             src={FormalLaptop}
             alt='Codi Alger sitting at a table in front of a laptop at Hawthorne Coffee Roasters in Bayview, Milwaukee'
-            imgTagClassName='about-photo'
+            className='about-photo'
           />
         </RowPhotoText>
         <div className='about-photo-row'>
-          <FramedPhoto
-            frameColor='tan'
+          <img
             src={RealBigHat}
             alt='Codi Alger posing in a large white furry hat with a cylindrical shape'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
-            frameColor='tan'
+          <img
             src={RealDragFace}
-            alt='Codi Alger replicating the expression of a several foot tall photo making a dramatic face with smeared makeup'
-            imgTagClassName='about-photo-row-photo'
+            alt='Codi Alger replicating the expression of a several foot tall canvas making a dramatic face with smeared makeup'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
-            frameColor='tan'
+          <img
             src={RealBestOfMke}
-            alt='Codi Alger at the Best of MKE 2022 event, informal photo with behind the scenes energy, Codi is squatting down and eating with her purse and drink on the ground next to her'
-            imgTagClassName='about-photo-row-photo'
+            alt='Codi Alger at the Best of MKE 2022 event, informal with behind the scenes energy, Codi is squatting down and eating with her purse and drink on the ground next to her'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
-            frameColor='tan'
+          <img
             src={RealDiva}
             alt='Codi Alger posing in front of a modern family character holding a letter board sign reading "Diva"'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
-            frameColor='tan'
+          <img
             src={RealCat}
             alt='Codi Alger petting a stray orange & white cat atop a flower bed beneath a tree'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
-            frameColor='tan'
+          <img
             src={RealNature}
             alt='Codi Alger selfie with sunglasses in front of a lovely fall outside background'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
         </div>
         <p>
@@ -78,35 +72,35 @@ export function About() {
           </strong>
         </p>
         <div className='about-photo-row'>
-          <FramedPhoto
+          <img
             src={RealGenerationHeartPants}
             alt='Codi Alger standing with her daughter and mother while wearing jeans with colorful hearts in a rainbow order down the legs'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
+          <img
             src={RealBucksFamily}
             alt='Codi Alger standing with her family in the Bucks arena wearing Bucks gear, big fan energy'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
+          <img
             src={RealMural}
             alt='Codi Alger standing with her daughter in front of a mural in Black Cat Alley in downtown Milwaukee'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
+          <img
             src={RealHusband}
             alt='Codi Alger standing with her husband in discovery world in downtown Milwaukee'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
+          <img
             src={RealDaughter}
             alt='Codi Alger standing in front of a convex mirrow with her daughter outside with foliage around the mirror and a lighthouse in the background'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
-          <FramedPhoto
+          <img
             src={RealFamilyCopper}
             alt='Codi Alger sitting at a table with her family at the Copper Kitchen in Bayview, Milwaukee'
-            imgTagClassName='about-photo-row-photo'
+            className='about-photo-row-photo'
           />
         </div>
       </div>

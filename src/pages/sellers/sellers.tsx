@@ -1,13 +1,7 @@
 import CodiHelping from '../../assets/photos/codi/real-painting.jpg'
 import SignSon from '../../assets/photos/codi/sign-son.jpg'
 import Sold5 from '../../assets/photos/sold/sold-5.jpg'
-import {
-  ClientReview,
-  FramedPhoto,
-  PageContainer,
-  RowPhotoText,
-} from '../../components'
-import { SELLER_REVIEWS } from '../../constants'
+import { PageContainer, RowPhotoText } from '../../components'
 import './sellers.css'
 
 export function Sellers() {
@@ -26,10 +20,10 @@ export function Sellers() {
             "I understand that selling a home can be an emotional process, and I prioritize empathy and compassion in my interactions with sellers. By taking the time to listen to your unique goals and concerns, I tailor a personalized plan that not only meets but exceeds your expectations. Whether it's lending a helping hand with tasks like cleaning or providing emotional support during the transition, I am committed to easing any feelings of overwhelm and ensuring a positive experience for you.",
           ]}
         >
-          <FramedPhoto
+          <img
             src={SignSon}
             alt='Codi\&apos;s son posing adjacent to a "For Sale" sign with Codi\&apos;s branding.'
-            imgTagClassName='sellers-'
+            className='sellers-'
           />
         </RowPhotoText>
 
@@ -52,10 +46,10 @@ export function Sellers() {
             'As a listing agent who also works with buyers, I offer a unique advantage by tapping into a large pool of qualified buyers. My comprehensive marketing plan is tailored to appeal to your target audience, ensuring maximum exposure and attracting a diverse range of interested parties. Additionally, I often have qualified buyers of my own, which can expedite the selling process and minimize disruptions for you as the seller.',
           ]}
         >
-          <FramedPhoto
+          <img
             src={CodiHelping}
             alt='Codi smiling while painting a wall within a house'
-            imgTagClassName=''
+            className=''
           />
         </RowPhotoText>
 
@@ -73,10 +67,10 @@ export function Sellers() {
           </p>
         </div>
 
-        <FramedPhoto
+        <img
           src={Sold5}
           alt='Sold house featuring two individuals holding a white sign with red text saying "Sold"'
-          imgTagClassName=''
+          className=''
         />
 
         <p>
