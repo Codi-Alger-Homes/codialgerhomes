@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
-import { About, Buyers, Home, Sellers } from './pages'
 import './App.css'
+import { About, Buyers, Home, Sellers } from './pages'
+import { Testimonials } from './pages/testimonials'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Route path='/buyers' element={<Buyers />} />
       <Route path='/sellers' element={<Sellers />} />
       <Route path='/about' element={<About />} />
+      <Route path='/testimonials' element={<Testimonials />} />
     </Routes>
   )
 }

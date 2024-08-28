@@ -28,8 +28,6 @@ export function Buyers() {
           />
         </RowPhotoText>
 
-        <ClientReview review={BUYERS_REVIEWS[0]} />
-        <ClientReview review={BUYERS_REVIEWS[1]} />
 
         <RowPhotoText
           header='Enjoyable experience'
@@ -44,8 +42,6 @@ export function Buyers() {
           />
         </RowPhotoText>
 
-        <ClientReview review={BUYERS_REVIEWS[2]} />
-        <ClientReview review={BUYERS_REVIEWS[3]} />
 
         <RowPhotoText
           header='Education-focused approach'

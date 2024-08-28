@@ -85,10 +85,6 @@ export function Sellers() {
           trusted partner for seller clients seeking a seamless and rewarding
           selling experience.
         </p>
-
-        <ClientReview review={SELLER_REVIEWS[0]} />
-        <ClientReview review={SELLER_REVIEWS[1]} />
-        <ClientReview review={SELLER_REVIEWS[2]} />
       </div>
     </PageContainer>
   )

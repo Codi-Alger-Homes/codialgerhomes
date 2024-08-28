@@ -44,8 +44,6 @@ export function Home() {
         </RowPhotoText>
 
         <div className='home-section-2-container'>
-          <ClientReview review={HOME_REVIEWS[0]} />
-          <ClientReview review={HOME_REVIEWS[1]} />
           <div className='home-photo-2-container'>
             <FramedPhoto
               src={Sold6}
@@ -60,7 +58,6 @@ export function Home() {
               imgTagClassName='home-photo-1'
             />
           </div>
-          <ClientReview review={HOME_REVIEWS[2]} />
         </div>
       </div>
     </PageContainer>

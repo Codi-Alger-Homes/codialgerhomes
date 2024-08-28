@@ -1,6 +1,5 @@
 import { useCallback } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { CallToAction } from '..'
 import HoanGraphic from '../../assets/hoan-graphic.svg'
 import Logo from '../../assets/logo.svg'
 import './page_container.css'
@@ -32,8 +31,8 @@ export function PageHeader() {
     <div className='page-header-container'>
       <img src={Logo} alt='logo' className='logo' onClick={handleLogoClick} />
       <div className='nav-bar'>
-        <Link className='nav-link' to='/'>
-          Home
+        <Link className='nav-link' to='/about'>
+          About
         </Link>
         <Link className='nav-link' to='/buyers'>
           Buyers
@@ -41,8 +40,8 @@ export function PageHeader() {
         <Link className='nav-link' to='/sellers'>
           Sellers
         </Link>
-        <Link className='nav-link' to='/about'>
-          About
+        <Link className='nav-link' to='/testimonials'>
+          Testimonials
         </Link>
       </div>
     </div>
