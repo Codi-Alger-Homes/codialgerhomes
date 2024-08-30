@@ -74,10 +74,10 @@ export function PageFooter() {
           <Link className='nav-link' to='/about'>
             About
           </Link>
-          <Link className='nav-link' to='/buyers'>
+          <Link className='nav-link' to='/buying'>
             Buying
           </Link>
-          <Link className='nav-link' to='/sellers'>
+          <Link className='nav-link' to='/selling'>
             Selling
           </Link>
           <Link className='nav-link' to='/testimonials'>
