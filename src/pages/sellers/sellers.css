@@ -4,3 +4,7 @@
   gap: var(--vertical-content-gap);
   padding: 0 var(--horizontal-outer-padding) var(--bottom-content-padding);
 }
+
+.sellers-photo {
+  width: var(--single-photo-width);
+}

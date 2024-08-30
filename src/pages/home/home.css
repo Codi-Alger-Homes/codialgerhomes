@@ -5,6 +5,110 @@
   padding: 0 var(--horizontal-outer-padding) var(--bottom-content-padding);
 }
 
+.home-photo-a {
+  width: 30%;
+}
+
+.home-photo-banner {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-counties-list {
+  color: var(--color-green);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.home-learn-about-button {
+  margin-top: 2rem;
+}
+
+.home-photo-formal {
+  border: 10px solid var(--color-white);
+  border-radius: 0.25rem;
+}
+
+.home-awards {
+  background-color: var(--color-violet);
+  border-radius: 0.25rem;
+  color: var(--color-white);
+  padding-bottom: 4rem;
+
+  h2 {
+    color: var(--color-yellow);
+  }
+}
+
+.home-awards-grid {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-awards-column {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.home-awards-item {
+  border: 2px solid var(--color-navy);
+  border-radius: 0.25rem;
+  background-color: var(--color-white);
+  color: var(--color-navy);
+  padding: 1rem 0.5rem;
+}
+
+.home-awards-content {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-53207-communities {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.home-53207-community {
+  /* border: 2px solid var(--color-navy); */
+  border-radius: 0.25rem;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  padding: 0.5rem 0.75rem;
+}
+
+.home-bayview-sold-photo {
+  max-height: 200px;
+}
+
+.home-bayview-accomplishments {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
 .home-section-1-container {
   display: flex;
   flex-direction: row wrap;

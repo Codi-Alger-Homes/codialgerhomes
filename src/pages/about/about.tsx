@@ -1,7 +1,10 @@
 import FormalLaptop from '../../assets/photos/codi/formal-laptop.jpg'
+import FormalScarf from '../../assets/photos/codi/formal-scarf.jpeg'
 import RealBestOfMke from '../../assets/photos/codi/real-best-of-mke.jpg'
 import RealBigHat from '../../assets/photos/codi/real-big-hat.jpg'
 import RealBucksFamily from '../../assets/photos/codi/real-bucks-family.jpg'
+import RealBucksSign from '../../assets/photos/codi/bucks.jpg'
+import GiannisMural from '../../assets/photos/codi/giannis-mural.jpg'
 import RealCat from '../../assets/photos/codi/real-cat.jpg'
 import RealDaughter from '../../assets/photos/codi/real-daughter.jpg'
 import RealDiva from '../../assets/photos/codi/real-diva.jpg'
@@ -11,6 +14,8 @@ import RealGenerationHeartPants from '../../assets/photos/codi/real-generation-h
 import RealHusband from '../../assets/photos/codi/real-husband.jpg'
 import RealMural from '../../assets/photos/codi/real-mural.jpg'
 import RealNature from '../../assets/photos/codi/real-nature.jpg'
+import RealNature2 from '../../assets/photos/codi/real-nature-2.jpg'
+import RealBCAFamily from '../../assets/photos/codi/bca.jpg'
 import { PageContainer, RowPhotoText } from '../../components'
 import './about.css'
 
@@ -19,72 +24,87 @@ export function About() {
     <PageContainer>
       <h1>About</h1>
       <div className='about-container'>
-        <RowPhotoText
-          text={[
-            'My passion for real estate was born from my own experience of buying and selling homes throughout different stages in my life. I can relate to my clients, whether it’s the excitement of finding your first home, upgrading for a growing family, purchasing an investment property or selling a beloved family home, as your real estate advisor, I enjoy guiding people through one of the biggest transactions they will make.',
-          ]}
-        >
-          <img
-            src={FormalLaptop}
-            alt='Codi Alger sitting at a table in front of a laptop at Hawthorne Coffee Roasters in Bayview, Milwaukee'
-            className='about-photo'
-          />
-        </RowPhotoText>
         <div className='about-photo-row'>
           <img
-            src={RealBigHat}
-            alt='Codi Alger posing in a large white furry hat with a cylindrical shape'
+            src={RealBCAFamily}
+            alt='Codi Alger and her family in Black Cat Alley in downtown Milwaukee'
             className='about-photo-row-photo'
           />
           <img
-            src={RealDragFace}
-            alt='Codi Alger replicating the expression of a several foot tall canvas making a dramatic face with smeared makeup'
+            src={FormalScarf}
+            alt='Codi Alger in a brown long jacket with a colorful scarf'
             className='about-photo-row-photo'
           />
           <img
-            src={RealBestOfMke}
-            alt='Codi Alger at the Best of MKE 2022 event, informal with behind the scenes energy, Codi is squatting down and eating with her purse and drink on the ground next to her'
-            className='about-photo-row-photo'
-          />
-          <img
-            src={RealDiva}
-            alt='Codi Alger posing in front of a modern family character holding a letter board sign reading "Diva"'
-            className='about-photo-row-photo'
-          />
-          <img
-            src={RealCat}
-            alt='Codi Alger petting a stray orange & white cat atop a flower bed beneath a tree'
-            className='about-photo-row-photo'
-          />
-          <img
-            src={RealNature}
-            alt='Codi Alger selfie with sunglasses in front of a lovely fall outside background'
+            src={RealNature2}
+            alt='Codi Alger in a black mock neck tanktop and sunglasses in front of trees'
             className='about-photo-row-photo'
           />
         </div>
         <p>
-          Before real estate, I spent years in education; both higher ed and
-          non-profit work in Milwaukee county. My strong education background is
-          what drives me to educate my clients along the way.{' '}
-          <strong className='about-text-emphasized'>
-            I am optimistic and solution driven and I believe that everyone
-            should have a seamless path to homeownership should they want one!
-          </strong>
+          In 2008 I moved to Milwaukee after graduating with a degree in
+          Journalism and Public Relations. Being from Ashland, WI AKA "Way Up
+          Nort", I thought Milwaukee was a stepping stone on my way to the BIG
+          CITY. We quickly settled into the vibe of Milwaukee and natural roots
+          were made.{' '}
         </p>
+        <p>
+          Prior to real estate I worked in non-profits and most recently higher
+          education at MSOE. While there, I was in charge of Student Life on
+          campus helping students, staff and faculty to achieve their out of the
+          classroom goals! I have been so fortunate to continue to work and
+          support the MSOE Raiders!
+        </p>
+
         <div className='about-photo-row'>
+          <img
+            src={RealBucksFamily}
+            alt='Codi Alger and her family at the Fiserv Forum in Milwaukee'
+            className='about-photo-row-photo'
+          />
+          <img
+            src={RealBucksSign}
+            alt='A sign for the Milwaukee Bucks outside of the Fiserv Forum in Milwaukee'
+            className='about-photo-row-photo'
+          />
+          <img
+            src={GiannisMural}
+            alt='A mural of Giannis Antetokounmpo in Milwaukee'
+            className='about-photo-row-photo'
+          />
+        </div>
+        <div className='about-activities-container'>
+          <p>
+            My husband and I have two great kiddos and a house full of cats!
+            When I am not working with my clients you can find me:
+          </p>
+          <ul>
+            <li>
+              Traveling to places near and far! (Visit Milwaukee
+              https://www.visitmilwaukee.org/
+            </li>
+            <li>Watching reality TV </li>
+            <li>Anything by the lake</li>
+            <li>Picking weeds in my garden</li>
+            <li>Halloweening</li>
+            <li>Listening to true crime podcasts </li>
+            <li>Thrifting and treasure hunting</li>
+            <li>
+              Drinking decaf at the Copper Kitchen(Copper Kitchen
+              https://milwaukeerecord.com/food-drink/tucked-away-copper-kitchen-is-the-gold-standard-in-milwaukee-diners/)
+            </li>
+          </ul>
+        </div>
+
+        <div className='about-photo-row'>
+          <img
+            src={RealFamilyCopper}
+            alt='Codi Alger sitting at a table with her family at the Copper Kitchen in Bayview, Milwaukee'
+            className='about-photo-row-photo'
+          />
           <img
             src={RealGenerationHeartPants}
             alt='Codi Alger standing with her daughter and mother while wearing jeans with colorful hearts in a rainbow order down the legs'
-            className='about-photo-row-photo'
-          />
-          <img
-            src={RealBucksFamily}
-            alt='Codi Alger standing with her family in the Bucks arena wearing Bucks gear, big fan energy'
-            className='about-photo-row-photo'
-          />
-          <img
-            src={RealMural}
-            alt='Codi Alger standing with her daughter in front of a mural in Black Cat Alley in downtown Milwaukee'
             className='about-photo-row-photo'
           />
           <img
@@ -93,13 +113,38 @@ export function About() {
             className='about-photo-row-photo'
           />
           <img
+            src={RealMural}
+            alt='Codi Alger standing with her daughter in front of a mural in Black Cat Alley in downtown Milwaukee'
+            className='about-photo-row-photo'
+          />
+          <img
             src={RealDaughter}
             alt='Codi Alger standing in front of a convex mirrow with her daughter outside with foliage around the mirror and a lighthouse in the background'
             className='about-photo-row-photo'
           />
           <img
-            src={RealFamilyCopper}
-            alt='Codi Alger sitting at a table with her family at the Copper Kitchen in Bayview, Milwaukee'
+            src={RealNature}
+            alt='Codi Alger selfie with sunglasses in front of a lovely fall outside background'
+            className='about-photo-row-photo'
+          />
+          <img
+            src={RealCat}
+            alt='Codi Alger petting a stray orange & white cat atop a flower bed beneath a tree'
+            className='about-photo-row-photo'
+          />
+          <img
+            src={RealBigHat}
+            alt='Codi Alger wearing a big fuzzy white hat'
+            className='about-photo-row-photo'
+          />
+          <img
+            src={RealDiva}
+            alt='Codi Alger in front of a modern family character holding a sign reading "Diva"'
+            className='about-photo-row-photo'
+          />
+          <img
+            src={RealDragFace}
+            alt='Codi Alger in front of a drag queen whose face she is imitating, a look of dramatic distress'
             className='about-photo-row-photo'
           />
         </div>

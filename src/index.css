@@ -26,16 +26,26 @@ code {
 }
 
 :root {
-  --primary-color: #ecc659;
+  --primary-color: #953759;
   --secondary-color: #93b7be;
-  --tertiary-color: #e7d7c1;
+  --tertiary-color: #767522;
   --dark-color: #2f3e46;
   --light-color: #fffbf5;
   /* --black-color: #2F3E46;
   --white-color: #FFFBF5; */
+  --color-yellow: #ecc659;
+  --color-orange: #f79d25;
+  --color-red: #f06449;
+  --color-violet: #953759;
+  --color-green: #767522;
+  --color-brown: #584c2c;
+  --color-blue: #93b7be;
+  --color-navy: #2f3e46;
+  --color-tan: #e7d7c1;
+  --color-white: #fffbf5;
 
   --header-left-spacing: 4rem;
-  --header-left-negative-spacing: -4rem; 
+  --header-left-negative-spacing: -4rem;
 
   --vertical-content-gap: 8vw;
   --horizontal-outer-padding: min(5rem, 10px);
@@ -46,8 +56,8 @@ code {
 
 body {
   font-family: 'Karla', sans-serif;
-  background-color: var(--dark-color);
-  color: var(--light-color);
+  background-color: var(--color-white);
+  color: var(--color-navy);
 }
 
 h1,
@@ -59,18 +69,18 @@ h5 {
 }
 
 h1 {
-  background-color: var(--tertiary-color);
-  color: var(--dark-color);
+  background-color: var(--color-blue);
+  color: var(--light-color);
   text-align: center;
   font-weight: 600;
   padding: 0.25rem 0;
-  margin: 2rem 0 4rem 0;
+  margin: 2rem var(--header-left-spacing) 4rem
+    var(--header-left-negative-spacing);
   width: 100vw;
-  margin-left: var(--header-left-negative-spacing);
 }
 
 h2 {
-  color: var(--primary-color);
+  color: var(--color-violet);
 }
 
 a {
@@ -80,5 +90,8 @@ a {
 .link {
   color: var(--light-color);
   padding: 1rem;
-  background-color: var(--secondary-color);
+  background-color: var(--color-orange);
+  height: 3rem;
+  text-decoration: none;
+  font-weight: bold;
 }

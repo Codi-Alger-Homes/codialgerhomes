@@ -1,18 +1,13 @@
 import CodiHelping from '../../assets/photos/codi/real-painting.jpg'
 import SignSon from '../../assets/photos/codi/sign-son.jpg'
-import Sold5 from '../../assets/photos/sold/sold-5.jpg'
 import { PageContainer, RowPhotoText } from '../../components'
 import './sellers.css'
 
 export function Sellers() {
   return (
     <PageContainer>
-      <h1>Sellers</h1>
+      <h1>Selling</h1>
       <div className='sellers-container'>
-        {/* <p>
-          Seller clients appreciate working with me for several compelling
-          reasons:
-        </p> */}
 
         <RowPhotoText
           header={'Empathetic Approach'}
@@ -23,7 +18,7 @@ export function Sellers() {
           <img
             src={SignSon}
             alt='Codi\&apos;s son posing adjacent to a "For Sale" sign with Codi\&apos;s branding.'
-            className='sellers-'
+            className='sellers-photo'
           />
         </RowPhotoText>
 
@@ -49,10 +44,9 @@ export function Sellers() {
           <img
             src={CodiHelping}
             alt='Codi smiling while painting a wall within a house'
-            className=''
+            className='sellers-photo'
           />
         </RowPhotoText>
-
         <div>
           <h2>Focus on positive relationships</h2>
           <p>
@@ -66,19 +60,6 @@ export function Sellers() {
             securing offers that align with your goals.
           </p>
         </div>
-
-        <img
-          src={Sold5}
-          alt='Sold house featuring two individuals holding a white sign with red text saying "Sold"'
-          className=''
-        />
-
-        <p>
-          In summary, my empathetic approach, professional connections, access
-          to a large buyer pool, and focus on positive relationships make me a
-          trusted partner for seller clients seeking a seamless and rewarding
-          selling experience.
-        </p>
       </div>
     </PageContainer>
   )

@@ -8,3 +8,8 @@
 .buyers-photo {
   width: var(--single-photo-width);
 }
+
+.buyers-text-emphasized {
+  font-weight: bold;
+  color: var(--primary-color);
+}

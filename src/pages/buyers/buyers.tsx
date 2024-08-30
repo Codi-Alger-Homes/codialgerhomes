@@ -7,7 +7,16 @@ import './buyers.css'
 export function Buyers() {
   return (
     <PageContainer>
-      <h1>Buyers</h1>
+      <h1>Buying</h1>
+      <p>
+        Before real estate, I spent years in education; both higher ed and
+        non-profit work in Milwaukee county. My strong education background is
+        what drives me to educate my clients along the way.{' '}
+        <strong className='buyers-text-emphasized'>
+          I am optimistic and solution driven and I believe that everyone should
+          have a seamless path to homeownership should they want one!
+        </strong>
+      </p>
       <div className='buyers-container'>
         <RowPhotoText
           header='No pressure approach'
@@ -47,13 +56,6 @@ export function Buyers() {
             className='buyers-photo'
           />
         </RowPhotoText>
-
-        <p>
-          Overall, my commitment to providing a pressure-free, enjoyable, and
-          educational experience sets me apart as a buyer's agent. I'm dedicated
-          to helping you find the perfect home that not only meets your current
-          needs but also aligns with your long-term goals and aspirations.
-        </p>
       </div>
     </PageContainer>
   )

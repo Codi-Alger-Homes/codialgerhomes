@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import HoanGraphic from '../../assets/hoan-graphic.svg'
-import Logo from '../../assets/logo.svg'
+import CAHLogoDark from '../../assets/logos/cah-logo-dark-yellow.png'
 import LSRLogo from '../../assets/lsr-logo.png'
 import './page_container.css'
 
@@ -30,20 +30,17 @@ export function PageHeader() {
 
   return (
     <div className='page-header-container'>
-      <img src={Logo} alt='logo' className='logo' onClick={handleLogoClick} />
-      <div className='nav-bar'>
-        <Link className='nav-link' to='/about'>
-          About
-        </Link>
-        <Link className='nav-link' to='/buyers'>
-          Buying
-        </Link>
-        <Link className='nav-link' to='/sellers'>
-          Selling
-        </Link>
-        <Link className='nav-link' to='/testimonials'>
-          Testimonials
-        </Link>
+      <div className='page-header-logo-container'>
+        <img
+          src={CAHLogoDark}
+          alt='logo'
+          className='logo'
+          onClick={handleLogoClick}
+        />
+        {/* <span>Serving South Eastern Wisconsin</span> */}
+      </div>
+      <div>
+        <em>Making South Eastern Wisconsin cooler, one neighbor at a time.</em>
       </div>
     </div>
   )
@@ -63,9 +60,27 @@ export function PageFooter() {
           alt='Lannon Stone Realty logo'
           className='page-footer-lsr-logo'
         />
+        <div className='nav-bar'>
+          <Link className='nav-link' to='/about'>
+            About
+          </Link>
+          <Link className='nav-link' to='/buyers'>
+            Buying
+          </Link>
+          <Link className='nav-link' to='/sellers'>
+            Selling
+          </Link>
+          <Link className='nav-link' to='/testimonials'>
+            Testimonials
+          </Link>
+        </div>
         <div className='page-footer-cta-text'>
-          <span>Call or Text: (414)581-4409</span>
-          <span>Email: codialgerhomes@gmail.com</span>
+          <span>
+            <strong>Call or Text:</strong> (414)581-4409
+          </span>
+          <span>
+            <strong>Email:</strong> codialgerhomes@gmail.com
+          </span>
         </div>
       </div>
     </>
