@@ -24,21 +24,21 @@ export function About() {
     <PageContainer>
       <h1>About</h1>
       <div className='about-container'>
-        <div className='about-photo-row'>
+        <div className='about-photo-banner'>
           <img
             src={RealBCAFamily}
             alt='Codi Alger and her family in Black Cat Alley in downtown Milwaukee'
-            className='about-photo-row-photo'
+            className='about-photo'
           />
           <img
             src={FormalScarf}
             alt='Codi Alger in a brown long jacket with a colorful scarf'
-            className='about-photo-row-photo'
+            className='about-photo'
           />
           <img
             src={RealNature2}
             alt='Codi Alger in a black mock neck tanktop and sunglasses in front of trees'
-            className='about-photo-row-photo'
+            className='about-photo'
           />
         </div>
         <p>
@@ -56,21 +56,21 @@ export function About() {
           support the MSOE Raiders!
         </p>
 
-        <div className='about-photo-row'>
+        <div className='about-photo-banner'>
           <img
             src={RealBucksFamily}
             alt='Codi Alger and her family at the Fiserv Forum in Milwaukee'
-            className='about-photo-row-photo'
+            className='about-photo'
           />
           <img
             src={RealBucksSign}
             alt='A sign for the Milwaukee Bucks outside of the Fiserv Forum in Milwaukee'
-            className='about-photo-row-photo'
+            className='about-photo'
           />
           <img
             src={GiannisMural}
             alt='A mural of Giannis Antetokounmpo in Milwaukee'
-            className='about-photo-row-photo'
+            className='about-photo'
           />
         </div>
         <div className='about-activities-container'>

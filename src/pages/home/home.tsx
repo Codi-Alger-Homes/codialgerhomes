@@ -16,9 +16,9 @@ export function Home() {
 
       <div className='home-container'>
         <div className='home-photo-banner'>
-          <img src={CodiFormalLaptop} alt='' className='home-photo-a' />
-          <img src={ExteriorHouse1} alt='' className='home-photo-a' />
-          <img src={Interior2} alt='' className='home-photo-a' />
+          <img src={CodiFormalLaptop} alt='' className='home-photo' />
+          <img src={ExteriorHouse1} alt='' className='home-photo' />
+          <img src={Interior2} alt='' className='home-photo' />
         </div>
 
         {/* intro */}
@@ -47,11 +47,12 @@ export function Home() {
             <span>#Kenosha</span>
             <span>#Walworth</span>
           </div>
-          <p className='home-learn-about-button'>
-            <Link className='link' to='/about'>
+          
+          <Link to='/about'>
+            <button className='home-learn-about-button'>
               Learn more about Codi {'>'}
-            </Link>
-          </p>
+            </button>
+          </Link>
         </div>
 
         {/* awards */}
@@ -79,63 +80,52 @@ export function Home() {
               </div>
             </div>
           </div>
-          <div>
-            <Link className='link' to='/testimonials'>
-              Read testimonials from clients {'>'}
-            </Link>
-          </div>
+          <Link to='/testimonials'>
+            <button className='home-learn-about-button'>
+              Read what my clients have to say {'>'}
+            </button>
+          </Link>
         </div>
 
         {/* buying */}
         <div>
           <h2>Buying</h2>
           <p>
-            Buying a home is a big deal. It’s the largest purchase you’ll ever
-            make. You need a real estate agent who will help you navigate the
-            process and make sure you get the best deal possible. I am that
-            agent.
+            I am committed to providing buyers a pressure-free, enjoyable, and
+            educational home buying experience. We will work together to create
+            a path to homeownership that feels authentic to you and achieves
+            your real estate goals!
           </p>
-          <p>
-            I will help you find the perfect home for you and your family. I
-            will help you negotiate the best price and terms. I will help you
-            with the paperwork and make sure you understand everything you are
-            signing. I will be there for you every step of the way.
-          </p>
-          <p className='home-learn-about-button'>
-            <Link className='link' to='/about'>
-              Learn more about buying with Codi {'>'}
-            </Link>
-          </p>
+
+          <Link to='/buying'>
+            <button className='home-learn-about-button'>
+              Starting your house hunt? Text me today. {'>'}
+            </button>
+          </Link>
         </div>
 
         {/* selling */}
         <div>
           <h2>Selling</h2>
           <p>
-            Selling your home is a big deal. It’s the largest sale you’ll ever
-            make. You need a real estate agent who will help you navigate the
-            process and make sure you get the best deal possible. I am that
-            agent.
+            With years of experience and a track record of successful home
+            sales, I’m here to help you achieve your real estate goals. As your
+            dedicated advisor, I use proven techniques and effective marketing
+            strategies to showcase your home to the right buyers and deliver
+            outstanding results.
           </p>
-          <p>
-            I will help you price your home right so it sells quickly and for
-            the best price. I will help you market your home so it gets maximum
-            exposure. I will help you negotiate the best price and terms. I will
-            help you with the paperwork and make sure you understand everything
-            you are signing. I will be there for you every step of the way.
-          </p>
-          <p className='home-learn-about-button'>
-            <Link className='link' to='/about'>
-              Learn more about selling with Codi {'>'}
-            </Link>
-          </p>
+          <Link to='/selling'>
+            <button className='home-learn-about-button'>
+              Considering a move? Contact me today. {'>'}
+            </button>
+          </Link>
         </div>
 
         {/* bayview expert */}
         <div className='home-photo-banner'>
-          <img src={Sold7} alt='' className='home-photo-a' />
-          <img src={Interior6} alt='' className='home-photo-a' />
-          <img src={Sold9} alt='' className='home-photo-a' />
+          <img src={Sold7} alt='' className='home-photo' />
+          <img src={Interior6} alt='' className='home-photo' />
+          <img src={Sold9} alt='' className='home-photo' />
         </div>
         <div>
           <h2>Bay View / 53207 Expert</h2>

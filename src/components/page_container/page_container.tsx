@@ -38,7 +38,6 @@ export function PageHeader() {
           className='logo'
           onClick={handleLogoClick}
         />
-        {/* <span>Serving South Eastern Wisconsin</span> */}
       </div>
       <div>
         <em>Making South Eastern Wisconsin cooler, one neighbor at a time.</em>
@@ -69,6 +68,9 @@ export function PageFooter() {
           />
         </div>
         <div className='nav-bar'>
+          <Link className='nav-link' to='/'>
+            Home
+          </Link>
           <Link className='nav-link' to='/about'>
             About
           </Link>

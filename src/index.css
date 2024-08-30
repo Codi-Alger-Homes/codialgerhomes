@@ -45,10 +45,11 @@ code {
   --color-white: #fffbf5;
 
   --header-left-spacing: 4rem;
-  --header-left-negative-spacing: -4rem;
+  --header-left-negative-spacing: -1rem;
 
   --vertical-content-gap: 8vw;
-  --horizontal-outer-padding: min(5rem, 10px);
+  --horizontal-outer-padding: 5vw;
+  --horizontal-negative-outer-padding: -5vw;
   --bottom-content-padding: 4rem;
 
   --single-photo-width: min(15rem, 300px);
@@ -74,13 +75,13 @@ h1 {
   text-align: center;
   font-weight: 600;
   padding: 0.25rem 0;
-  margin: 2rem var(--header-left-spacing) 4rem
-    var(--header-left-negative-spacing);
+  margin: 2rem 0 4rem -5vw;
   width: 100vw;
 }
 
 h2 {
   color: var(--color-violet);
+  text-shadow: var(--color-tan) 1px 1px 0;
 }
 
 a {
@@ -93,4 +94,15 @@ a {
   background-color: var(--color-orange);
   text-decoration: none;
   font-weight: bold;
+}
+
+button {
+  background-color: var(--color-orange);
+  border: 2px solid var(--color-tan);
+  border-radius: 0.25rem;
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  box-shadow: 1px 1px 0 0 var(--color-tan);
 }

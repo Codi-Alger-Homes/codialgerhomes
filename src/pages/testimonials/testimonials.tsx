@@ -1,14 +1,11 @@
-import { ClientReview, PageContainer } from '../../components'
-import { BUYERS_REVIEWS, HOME_REVIEWS, SELLER_REVIEWS } from '../../constants'
 import Sold1 from '../../assets/photos/sold/sold-1.jpg'
 import Sold2 from '../../assets/photos/sold/sold-2.jpg'
 import Sold3 from '../../assets/photos/sold/sold-3.jpg'
-import Sold4 from '../../assets/photos/sold/sold-4.jpg'
-import Sold5 from '../../assets/photos/sold/sold-5.jpg'
-import Sold6 from '../../assets/photos/sold/sold-6.jpg'
 import Sold7 from '../../assets/photos/sold/sold-7.jpg'
 import Sold8 from '../../assets/photos/sold/sold-8.jpg'
 import Sold9 from '../../assets/photos/sold/sold-9.jpg'
+import { ClientReview, PageContainer } from '../../components'
+import { BUYERS_REVIEWS, HOME_REVIEWS, SELLER_REVIEWS } from '../../constants'
 import './testimonials.css'
 
 export function Testimonials() {
@@ -18,11 +15,10 @@ export function Testimonials() {
       <div className='testimonials-container'>
         <a
           href='https://www.google.com/maps/place/Codi+Alger+Homes/@43.1181905,-88.2283668,17z/data=!3m1!4b1!4m6!3m5!1s0x880509c333b89bb3:0xa9698256dfcc75b5!8m2!3d43.1181905!4d-88.2283668!16s%2Fg%2F11j37lp8rl?entry=ttu'
-          className='testimonial-link'
           target='_blank'
           rel='noreferrer'
         >
-          Leave your own review on Google {'>'}
+          <button>Leave your own review on Google {'>'}</button>
         </a>
         <ClientReview key='client-review-1' review={HOME_REVIEWS[0]} />
         <ClientReview key='client-review-2' review={HOME_REVIEWS[1]} />
@@ -46,11 +42,10 @@ export function Testimonials() {
         <ClientReview key='client-review-11' review={SELLER_REVIEWS[2]} />
         <a
           href='https://www.google.com/maps/place/Codi+Alger+Homes/@43.1181905,-88.2283668,17z/data=!3m1!4b1!4m6!3m5!1s0x880509c333b89bb3:0xa9698256dfcc75b5!8m2!3d43.1181905!4d-88.2283668!16s%2Fg%2F11j37lp8rl?entry=ttu'
-          className='link'
           target='_blank'
           rel='noreferrer'
         >
-          Read more reviews on Google {'>'}
+          <button>Read more reviews on Google {'>'}</button>
         </a>
       </div>
     </PageContainer>

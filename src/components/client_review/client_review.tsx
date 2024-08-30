@@ -10,7 +10,7 @@ interface IClientReviewProps {
 
 export function ClientReview({ review }: IClientReviewProps) {
   return (
-    <div className='client-review-container'>
+    <div className='client-review-container' key={review.id}>
       <div className='client-review-left'>
         <span className='client-review-initials'>{review.initials}</span>
         <span className='client-review-date'>
@@ -21,7 +21,7 @@ export function ClientReview({ review }: IClientReviewProps) {
       </div>
       <div className='client-review-right'>
         <div className='client-review-forward-tick'>
-          <img src={QuoteTick} alt='quote tick' height='15px' className='client-review-tick' />
+          <img key={review.id + '-tick'} src={QuoteTick} alt='quote tick' height='15px' className='client-review-tick' />
         </div>
         <div className='client-review-text'>
           {review.quote.map((p) => (
@@ -29,7 +29,7 @@ export function ClientReview({ review }: IClientReviewProps) {
           ))}
         </div>
         <div className='client-review-back-tick'>
-          <img src={QuoteBackTick} alt='quote tick' height='15px' />
+          <img key={review.id + '-back-tick'} src={QuoteBackTick} alt='quote tick' height='15px' />
         </div>
       </div>
     </div>
