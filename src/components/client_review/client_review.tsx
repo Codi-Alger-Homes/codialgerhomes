@@ -21,7 +21,7 @@ export function ClientReview({ review }: IClientReviewProps) {
       </div>
       <div className='client-review-right'>
         <div className='client-review-forward-tick'>
-          <img src={QuoteTick} alt='quote tick' height='15px' />
+          <img src={QuoteTick} alt='quote tick' height='15px' className='client-review-tick' />
         </div>
         <div className='client-review-text'>
           {review.quote.map((p) => (

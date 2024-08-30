@@ -1,3 +1,20 @@
 .testimonials-container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
 
+.testimonials-photo-row {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonials-photo {
+  width: 30%;
 }

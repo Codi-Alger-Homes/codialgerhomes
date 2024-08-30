@@ -20,8 +20,8 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: var(--tertiary-color);
-  color: var(--dark-color);
+  background-color: var(--color-green);
+  color: var(--color-white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,5 +52,9 @@
 }
 
 .client-review-text > p > strong {
-  color: var(--primary-color);
+  color: var(--color-violet);
+}
+
+.client-review-tick {
+  color: var(--color-green);
 }
