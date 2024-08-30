@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import HoanGraphic from '../../assets/hoan-graphic.svg'
 import CAHLogoDark from '../../assets/logos/cah-logo-dark-yellow.png'
 import LSRLogo from '../../assets/lsr-logo.png'
+import RealtorTrademark from '../../assets/realtor-trademark.jpg'
 import './page_container.css'
 
 interface IPageContainerProps {
@@ -55,11 +56,18 @@ export function PageFooter() {
         </div>
       </div>
       <div className='page-footer-cta'>
-        <img
-          src={LSRLogo}
-          alt='Lannon Stone Realty logo'
-          className='page-footer-lsr-logo'
-        />
+        <div className='page-footer-logos'>
+          <img
+            src={LSRLogo}
+            alt='Lannon Stone Realty logo'
+            className='page-footer-lsr-logo'
+          />
+          <img
+            src={RealtorTrademark}
+            alt='Realtor trademark logo'
+            className='page-footer-realtor-logo'
+          />
+        </div>
         <div className='nav-bar'>
           <Link className='nav-link' to='/about'>
             About

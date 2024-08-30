@@ -77,6 +77,18 @@
   width: 120vw;
 }
 
+.page-footer-logos {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
 .page-footer-lsr-logo {
   max-width: 100px;
+}
+
+.page-footer-realtor-logo {
+  max-width: 50px;
 }
