@@ -105,4 +105,5 @@ button {
   font-weight: bold;
   padding: 0.5rem 1rem;
   box-shadow: 1px 1px 0 0 var(--color-tan);
+  cursor: pointer;
 }

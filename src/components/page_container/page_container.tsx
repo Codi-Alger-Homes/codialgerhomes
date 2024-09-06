@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import HoanGraphic from '../../assets/hoan-graphic.svg'
 import CAHLogoDark from '../../assets/logos/cah-logo-dark-yellow.png'
 import LSRLogo from '../../assets/lsr-logo.png'
-import RealtorTrademark from '../../assets/realtor-trademark.jpg'
+import RealtorTrademark from '../../assets/realtor-tm.png'
 import './page_container.css'
 
 interface IPageContainerProps {

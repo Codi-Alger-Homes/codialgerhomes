@@ -29,9 +29,9 @@ export function Home() {
             and selling homes throughout different stages in my life. I can
             relate to my clients, whether it’s the excitement of finding your
             first home, upgrading for a growing family, purchasing an investment
-            property or selling a beloved family home, as your real estate
-            advisor, I enjoy guiding people through one of the biggest
-            transactions they will make.
+            property or selling a beloved family home. As your real estate
+            advisor, I enjoy guiding you through one of the biggest
+            transactions you will make.
           </p>
           <p>
             As your friend in real estate my goal is to help you find the

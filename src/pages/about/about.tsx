@@ -45,8 +45,7 @@ export function About() {
           In 2008 I moved to Milwaukee after graduating with a degree in
           Journalism and Public Relations. Being from Ashland, WI AKA "Way Up
           Nort", I thought Milwaukee was a stepping stone on my way to the BIG
-          CITY. We quickly settled into the vibe of Milwaukee and natural roots
-          were made.{' '}
+          CITY. We quickly settled into the vibe of Milwaukee.{' '}
         </p>
         <p>
           Prior to real estate I worked in non-profits and most recently higher
@@ -80,8 +79,14 @@ export function About() {
           </p>
           <ul>
             <li>
-              Traveling to places near and far! (Visit Milwaukee
-              https://www.visitmilwaukee.org/
+              Traveling to places near and far!{' '}
+              <a
+                href='https://www.visitmilwaukee.org/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                (Visit Milwaukee)
+              </a>
             </li>
             <li>Watching reality TV </li>
             <li>Anything by the lake</li>
@@ -90,8 +95,14 @@ export function About() {
             <li>Listening to true crime podcasts </li>
             <li>Thrifting and treasure hunting</li>
             <li>
-              Drinking decaf at the Copper Kitchen(Copper Kitchen
-              https://milwaukeerecord.com/food-drink/tucked-away-copper-kitchen-is-the-gold-standard-in-milwaukee-diners/)
+              Drinking decaf at the{' '}
+              <a
+                href='https://milwaukeerecord.com/food-drink/tucked-away-copper-kitchen-is-the-gold-standard-in-milwaukee-diners/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Copper Kitchen
+              </a>
             </li>
           </ul>
         </div>
